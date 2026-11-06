@@ -1,0 +1,11 @@
+# Steward
+
+KOBİ'ler için gölge AI kalkanı: Çalışanlar ChatGPT, Gemini ve Copilot'u kullanmaya devam eder; hassas veri cihazdan çıkmadan maskelenir, cevapta geri doldurulur, patron KVKK uyum raporu ve AI fırsat haritası görür.
+
+## Dokümanlar
+- [Roadmap](docs/2026-11-06-Roadmap.md): Çerçeve, kararlar ve faz faz yol haritası (tek doğruluk kaynağı)
+- [Mimari](docs/2026-11-06-Mimari.md): Teknik mimari
+- [Pazar araştırması](docs/2026-11-06-OnPremAI-research.md): Pazar, rakipler, segmentler, skor kartı
+- [Puls Elektronik görüşme rehberi](docs/2026-11-06-PulsElektronik-gorusme.md): İlk müşteri görüşmesi
+
+Fikir çalışması `mfatihkarabas/idea` reposunda `ideas/onprem-ai/` altında başladı.
