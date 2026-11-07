@@ -1,4 +1,4 @@
-# Steward: Fikir Analizi ve Rekabet Araştırması
+# The Great Project: Fikir Analizi ve Rekabet Araştırması
 
 **Tarih:** 2026-11-06
 **Bu dosyanın rolü:** Roadmap, Mimari ve Pazar araştırması dokümanlarındaki fikri dışarıdan değerlendirir. Varsayımları web araştırmasıyla kontrol eder. Güçlü ve zayıf yönleri, SWOT ve diğer çerçeveleri, güncel rekabet haritasını ve tartışılacak kararları içerir.
@@ -13,7 +13,7 @@ Fikir sağlam bir acıya oturuyor: KVKK gölge AI'ı adıyla andı, çalışanla
 1. **"Orta (KOBİ ekibi + Türkçe + KVKK) boş görünüyor" varsayımı doğru değil.** Ankara merkezli AltaySec'in **Guardian Edge** ürünü aynı işi yapıyor: Chrome eklentisi, TC kimlik ve IBAN maskeleme, şirket sözlüğü, geri doldurma, shadow mode, KVKK dili. Pilot aşamasında ve fiyatı yok. Global tarafta **PiiBlocker** koltuk başına 4,99–6,99 USD'ye admin paneli, GPO kurulumu ve geri doldurma veriyor.
 2. **"Alt tarafta ücretsiz tek kişilik eklentiler" varsayımı eksik.** Alt taraf artık ücretli, ekip yönetimli ve ucuz. UK'de **ChatShield** hukuk ve muhasebe büroları için kullanıcı başı 8–15 GBP alıyor. Bu, dokümandaki GB planının (UK regüle meslekler) zaten dolu olduğunu gösterir.
 
-Buna karşılık üç şey hâlâ boş ve Steward'ın gerçek farkı olabilir:
+Buna karşılık üç şey hâlâ boş ve The Great Project'in gerçek farkı olabilir:
 
 - **KVKK kanıt çıktısı:** Kurum'un istediği politika, erişim kuralı ve kayıt dosyasını hazır rapor olarak veren bir KOBİ ürünü yok.
 - **Türk ERP sözlüğü ve Türkçe NER:** Rakiplerin hiçbiri Logo/Mikro/Netsis cari listesinden sözlük çıkarmıyor.
@@ -44,9 +44,9 @@ Buna karşılık üç şey hâlâ boş ve Steward'ın gerçek farkı olabilir:
 
 ## 2. Güçlü yönler
 
-1. **Düzenleyici zamanlama gerçek.** KVKK'nın Mart 2026 gölge AI duyurusu satış cümlesini hazır veriyor. 2026/2035 ilke kararı "log gibi az müdahaleci yöntem" diyerek Steward'ın metadata-only tasarımını açıkça meşrulaştırıyor. Teramind tipi ekran kaydı araçları bu kararla Türkiye'de hukuken zorlaşıyor; Steward kazançlı çıkıyor.
+1. **Düzenleyici zamanlama gerçek.** KVKK'nın Mart 2026 gölge AI duyurusu satış cümlesini hazır veriyor. 2026/2035 ilke kararı "log gibi az müdahaleci yöntem" diyerek The Great Project'in metadata-only tasarımını açıkça meşrulaştırıyor. Teramind tipi ekran kaydı araçları bu kararla Türkiye'de hukuken zorlaşıyor; The Great Project kazançlı çıkıyor.
 2. **Ceza çapası yüksek.** 2026'da veri güvenliği ihlali cezası 256.357–17.092.242 TL. Yurt dışı aktarım standart sözleşmesini bildirmeme cezası 90.308–1.806.377 TL ([CottGroup](https://cottgroup.com/tr/mevzuat/item/yeniden-degerleme-oranina-gore-2026-yili-kvkk-idari-para-cezalari)). Yıllık birkaç bin dolarlık bir ürün, alt sınırın bile çok altında.
-3. **İçerik sunucuya hiç gelmiyor.** Bu, Türkiye'deki tek rakip Guardian Edge'den daha iyi bir gizlilik hikâyesi. Guardian Edge içeriği müşterinin Guardian sunucusunda tarıyor; Steward tarayıcıda tarıyor. "Bize bile güvenmek zorunda değilsiniz" satır satır doğrulanabilir (giden metin görünümü, kanarya testi).
+3. **İçerik sunucuya hiç gelmiyor.** Bu, Türkiye'deki tek rakip Guardian Edge'den daha iyi bir gizlilik hikâyesi. Guardian Edge içeriği müşterinin Guardian sunucusunda tarıyor; The Great Project tarayıcıda tarıyor. "Bize bile güvenmek zorunda değilsiniz" satır satır doğrulanabilir (giden metin görünümü, kanarya testi).
 4. **Maskele + geri doldur, engelle değil.** Chrome Enterprise Premium ve Edge + Purview sadece engelliyor veya denetliyor; maskeleme yok ([Microsoft Learn](https://learn.microsoft.com/en-us/purview/dlp-browser-dlp-learn)). Engelleme çalışanı telefona kaçırır, maskeleme işini bitirtir. Bu, benimseme için kritik.
 5. **Türkiye'ye özgü tespit.** TC kimlik, VKN, IBAN, SGK doğrulamalı kurallar; Logo/Mikro/Netsis cari listesi; Türkçe NER. Global rakiplerin hiçbirinde yok. Guardian Edge'de TC ve IBAN var ama ERP sözlüğü yok.
 6. **Verim katmanı, gizlilik koruyarak.** Patron için ürün "maliyet" değil "fırsat". Rakiplerde ya hiç yok (PiiBlocker, ChatShield, Guardian Edge) ya kurumsal (Harmonic) ya da gözetleme tipi (ActivTrak, Insightful).
@@ -56,11 +56,11 @@ Buna karşılık üç şey hâlâ boş ve Steward'ın gerçek farkı olabilir:
 ## 3. Zayıf yönler
 
 1. **Mekanizma meta oldu.** Lokal maskeleme + geri doldurma artık PiiBlocker'da ücretsiz, Guardian Edge'de pilot, Perplexity'de ürün içi. Bunu "ürün" diye satmak zor. Ürün = kanıt + verim + yerel sözlük olmalı.
-2. **Fiyat tavanı düşük.** PiiBlocker 100+ koltukta 4,99 USD. Chrome Enterprise Premium 6 USD. Microsoft 365 Business Premium (~22 USD) içinde keşif var, engelleme için ek lisans gerekiyor ([TMinus365](https://tminus365.com/detecting-shadow-ai-in-your-organization/)). Steward kullanıcı başı 5 USD'nin çok üstüne çıkamaz; fark verim ve rapordan gelmeli.
+2. **Fiyat tavanı düşük.** PiiBlocker 100+ koltukta 4,99 USD. Chrome Enterprise Premium 6 USD. Microsoft 365 Business Premium (~22 USD) içinde keşif var, engelleme için ek lisans gerekiyor ([TMinus365](https://tminus365.com/detecting-shadow-ai-in-your-organization/)). The Great Project kullanıcı başı 5 USD'nin çok üstüne çıkamaz; fark verim ve rapordan gelmeli.
 3. **Verim katmanı en zor ve en abartıya açık parça.** "Haftada ~X saat" tahmini, sadece AI sitelerindeki yapıştırmalardan türetiliyor. Dokümanlar bunu dürüstçe not ediyor. Ama satışta ilk abartı, güveni ve KVKK ölçülülük savunmasını birlikte yakar.
 4. **Adaptör kırılganlığı tek geliştiricide ağır.** ChatGPT, Gemini, Copilot arayüzleri sık değişir. Microsoft bile Purview dokümanında ChatGPT'nin "kodlanmış ve dinamik uç noktalar" yüzünden zorlayıcı olduğunu yazıyor. Uzaktan seçici güncelleme şart ama yeterli değil; günlük Playwright testi olmadan ürün sessizce kör olur.
-5. **Kapsam dışı yüzey büyük.** Masaüstü uygulamalar, telefon, kişisel bilgisayar, ekran görüntüsü. Rakipler de aynı sorunu yaşıyor; ama Steward'ın "kapsama 34/38" göstergesi gerçekte "tarayıcı kapsamı"dır. Satışta bu dürüstçe söylenmeli.
-6. **Guardian Edge Ankara'da, güvenlik firması arkasında.** AltaySec'in LLM pentest, eğitim ve CTF itibarı var. Kurumsal satışta Steward'dan güçlü. KOBİ'de ve verimde ise zayıf.
+5. **Kapsam dışı yüzey büyük.** Masaüstü uygulamalar, telefon, kişisel bilgisayar, ekran görüntüsü. Rakipler de aynı sorunu yaşıyor; ama The Great Project'in "kapsama 34/38" göstergesi gerçekte "tarayıcı kapsamı"dır. Satışta bu dürüstçe söylenmeli.
+6. **Guardian Edge Ankara'da, güvenlik firması arkasında.** AltaySec'in LLM pentest, eğitim ve CTF itibarı var. Kurumsal satışta The Great Project'ten güçlü. KOBİ'de ve verimde ise zayıf.
 7. **GB planı dolu bir odaya giriyor.** ChatShield UK hukuk ve muhasebe bürolarına 8–15 GBP'ye satıyor; Harmonic Londra'da; Copilot UK'de 2026 sonunda ülke içi işliyor. "UK regüle meslek şablonu" ayrışma değil.
 8. **İsim çakışması.** getsteward.ai bir uyum (compliance) platformu. Steward da "uyum" dili kullanıyor. Aynı kategori, aynı İngilizce konuşan pazar.
 9. **Kurucu kası.** Dokümanlar saha ve kanal satışını "yeni bir kas" diye not ediyor. KOBİ'ye tek tek satış yavaş; kanal (IT firması, KVKK danışmanı, SMMM) olmadan ölçek yok.
@@ -72,7 +72,7 @@ Buna karşılık üç şey hâlâ boş ve Steward'ın gerçek farkı olabilir:
 | | **Yardımcı** | **Zararlı** |
 | :--- | :--- | :--- |
 | **İç** | **Güçlü yönler**<br>• İçerik cihazdan çıkmıyor, doğrulanabilir<br>• Maskele + geri doldur (rakipler engelliyor)<br>• TR veri tipleri + ERP sözlüğü + Türkçe NER<br>• KVKK kanıt raporu<br>• Verim katmanı, kişi değil departman<br>• Düşük sermaye, sıcak pilot | **Zayıf yönler**<br>• Mekanizma kopyalanabilir, artık meta<br>• Tek geliştirici, adaptör bakımı ağır<br>• Verim tahmini abartıya açık<br>• Satış ve kanal kası yok<br>• Tarayıcı dışı kapsam yok<br>• İsim çakışması |
-| **Dış** | **Fırsatlar**<br>• KVKK Mart 2026 duyurusu + Eylül 2026 ilke kararı<br>• Copilot TR'de ülke içi işlemiyor, 2028'e kadar liste dışı<br>• Şirketlerde AI kullanımı bir yılda ikiye katlandı (%7,5 → %14)<br>• KVKK danışmanı ve SMMM kanalı<br>• 132 bin ihracatçı KOBİ, orta ölçekte ihracat oranı %31 ([KOSGEB](https://webdosya.kosgeb.gov.tr/Content/Upload/Dosya/Kurumsal/2025/Tu%CC%88rkiye'deki_KOBI%CC%87'lere_I%CC%87lis%CC%A7kin_Baz%C4%B1_I%CC%87statistiki_Go%CC%88stergeler_2025.pdf))<br>• Sıcak satın alma pazarı | **Tehditler**<br>• Chrome Enterprise Premium 6 USD, Edge + Purview paket içinde<br>• ESET 2026 sonunda tarayıcı modülüyle chatbot DLP getiriyor ([Pulse](https://www.pulse.bot/ai/news/eset-previews-new-ai-security-features-to-secure-chatbot-communications-and-ai-workflows-51ba8d94-4da5-4d1a-bb79-f9451527a670/)); KOBİ'lerin AV'si bedava eklenti haline gelirse Steward'ın kalkanı değersizleşir<br>• Guardian Edge TR'de önce kurumsalı alır, sonra aşağı iner<br>• PiiBlocker Türkçe veri tiplerini eklerse 5 USD'lik taban çöker<br>• KVKK denetimi KOBİ'de seyrek; korku yeterince somut olmayabilir<br>• AB AI Act çalışan izleme hükümleri (2027–28) verim katmanını "yüksek risk" sınıfına yaklaştırabilir |
+| **Dış** | **Fırsatlar**<br>• KVKK Mart 2026 duyurusu + Eylül 2026 ilke kararı<br>• Copilot TR'de ülke içi işlemiyor, 2028'e kadar liste dışı<br>• Şirketlerde AI kullanımı bir yılda ikiye katlandı (%7,5 → %14)<br>• KVKK danışmanı ve SMMM kanalı<br>• 132 bin ihracatçı KOBİ, orta ölçekte ihracat oranı %31 ([KOSGEB](https://webdosya.kosgeb.gov.tr/Content/Upload/Dosya/Kurumsal/2025/Tu%CC%88rkiye'deki_KOBI%CC%87'lere_I%CC%87lis%CC%A7kin_Baz%C4%B1_I%CC%87statistiki_Go%CC%88stergeler_2025.pdf))<br>• Sıcak satın alma pazarı | **Tehditler**<br>• Chrome Enterprise Premium 6 USD, Edge + Purview paket içinde<br>• ESET 2026 sonunda tarayıcı modülüyle chatbot DLP getiriyor ([Pulse](https://www.pulse.bot/ai/news/eset-previews-new-ai-security-features-to-secure-chatbot-communications-and-ai-workflows-51ba8d94-4da5-4d1a-bb79-f9451527a670/)); KOBİ'lerin AV'si bedava eklenti haline gelirse The Great Project'in kalkanı değersizleşir<br>• Guardian Edge TR'de önce kurumsalı alır, sonra aşağı iner<br>• PiiBlocker Türkçe veri tiplerini eklerse 5 USD'lik taban çöker<br>• KVKK denetimi KOBİ'de seyrek; korku yeterince somut olmayabilir<br>• AB AI Act çalışan izleme hükümleri (2027–28) verim katmanını "yüksek risk" sınıfına yaklaştırabilir |
 
 ---
 
@@ -94,7 +94,7 @@ Buna karşılık üç şey hâlâ boş ve Steward'ın gerçek farkı olabilir:
 
 CLAUDE.md'nin sorusu: "Bu ürün 6 ayda 1 milyar USD değerlemeye ulaşsaydı, kararı kimler verirdi?" Bu dört kişi:
 
-| Persona | Yapmaya çalıştığı iş | Bugün ne yapıyor | Steward'ın satır satır cevabı | Risk |
+| Persona | Yapmaya çalıştığı iş | Bugün ne yapıyor | The Great Project'in satır satır cevabı | Risk |
 | :--- | :--- | :--- | :--- | :--- |
 | **Patron / GM (Puls)** | "Mühendisim firmware'i ChatGPT'ye yapıştırırsa ilaç müşterim NDA'yı iptal eder. Bunu bilmeden uyuyamam." | Hiçbir şey, ya da sözlü "dikkat edin". | 2 haftalık rapor: "17 kod yapıştırması, 4 fiyat teklifi." Sonra: "Artık maskeleniyor, işte giden metin." | Rapor boş çıkarsa (kimse yapıştırmıyorsa) satış ölür. Faz 0 bunu ölçmeli. |
 | **IT sorumlusu** | "Patron 'AI'ı kontrol et' dedi. Bir şey kurup çalışır göstermeliyim, ama çalışanlar bana küfretmesin." | Belki DNS engeli denedi, çalışanlar telefona geçti. | 30 dakikada ERP cari listesi yükle, GPO ile dağıt, kanarya yeşil ışığı gör. | Eklenti kırılırsa suçlu IT olur. Günlük otomatik test şart. |
@@ -107,7 +107,7 @@ CLAUDE.md'nin sorusu: "Bu ürün 6 ayda 1 milyar USD değerlemeye ulaşsaydı, k
 
 ## 7. Moat analizi (Hamilton Helmer'ın 7 gücü)
 
-| Güç | Steward'da var mı | Not |
+| Güç | The Great Project'te var mı | Not |
 | :--- | :---: | :--- |
 | Ölçek ekonomisi | Hayır | SaaS marjı herkeste aynı. |
 | Ağ etkisi | Zayıf, kurulabilir | ERP sözlüğü ve Türkçe NER her müşteriyle iyileşir (anonim kalıplar). Zor ama gerçek. |
@@ -171,7 +171,7 @@ CLAUDE.md'nin sorusu: "Bu ürün 6 ayda 1 milyar USD değerlemeye ulaşsaydı, k
 | **Insightful AI Adoption Report** | Ekip bazlı AI aracı kullanımı, olgunluk matrisi; sadece metadata ([Insightful](https://www.insightful.io/ai-adoption)) | Metadata-only, ekip düzeyi | Orta |
 | **Worklytics** | Copilot/Gemini bağlantılı, anonim, departman kalıpları | Anonim | ❌ (kurumsal) |
 
-**Okuma:** Verimde en yakın benzer Insightful: metadata-only, ekip düzeyi, gizlilik vurgusu. Ama Insightful masaüstü ajanıyla tüm uygulamaları sayıyor ve "zaman tasarrufu" iddiası yapmıyor. Steward'ın "görev türü sınıflandırma + tek tuşla şablon" fikri hâlâ boş. ActivTrak otomasyon fırsatı çıkarıyor ama gözetleme aracı olarak algılanıyor; 2026/2035 kararı onu Türkiye'de zorlar.
+**Okuma:** Verimde en yakın benzer Insightful: metadata-only, ekip düzeyi, gizlilik vurgusu. Ama Insightful masaüstü ajanıyla tüm uygulamaları sayıyor ve "zaman tasarrufu" iddiası yapmıyor. The Great Project'in "görev türü sınıflandırma + tek tuşla şablon" fikri hâlâ boş. ActivTrak otomasyon fırsatı çıkarıyor ama gözetleme aracı olarak algılanıyor; 2026/2035 kararı onu Türkiye'de zorlar.
 
 ### 8.6 Güncellenmiş konum haritası
 
@@ -191,7 +191,7 @@ CLAUDE.md'nin sorusu: "Bu ürün 6 ayda 1 milyar USD değerlemeye ulaşsaydı, k
                └──────────────────────────┴──────────────────────────┘
 ```
 
-Sağ-orta hücre artık boş değil. Steward'ın farkı hücrenin içinde değil, hücreye eklediği üç şeyde.
+Sağ-orta hücre artık boş değil. The Great Project'in farkı hücrenin içinde değil, hücreye eklediği üç şeyde.
 
 ---
 
@@ -216,13 +216,13 @@ Sağ-orta hücre artık boş değil. Steward'ın farkı hücrenin içinde değil
 
 ---
 
-## 10. Pre-mortem: Steward 12 ay sonra neden ölmüş olabilir?
+## 10. Pre-mortem: The Great Project 12 ay sonra neden ölmüş olabilir?
 
 1. **Faz 0 raporu boş çıktı.** Puls'ta 2 haftada 3 yapıştırma yakalandı, patron "sorun yokmuş" dedi. → Faz 0'a kanarya dışında "en az 5 cihaz ve mühendis" şartı koy; sonuç boşsa segmenti değiştir, ürünü değil.
 2. **Eklenti iki kez kırıldı, IT sorumlusu kaldırdı.** → Günlük Playwright adaptör testi Faz 0'da olmalı, Faz 1'de değil.
 3. **Verim raporu abartı çıktı, patron güvenini kaybetti.** → Faz 0 ve 1'de saat tahmini verme; sadece "haftada ~40 çeviri isteği" gibi sayım ver. Saat tahmini ancak müşteri onaylı bir şablon kullanıldıktan sonra, ölçülen veriden.
 4. **ESET veya Chrome bedava kalkan getirdi, kalkan fiyatı sıfıra indi.** → Gelirin yarısı 12 ay içinde rapor + verim + sözlükten gelmeli. Kalkan tek başına fiyatlanmamalı.
-5. **Guardian Edge KOBİ'ye indi, kurumsal referanslarıyla kazandı.** → Steward'ın cevabı "içerik hiç çıkmaz" + ERP sözlüğü + 30 dakikada kurulum. Bunu ilk günden ölçülebilir kıyas tablosu olarak yayınla.
+5. **Guardian Edge KOBİ'ye indi, kurumsal referanslarıyla kazandı.** → The Great Project'in cevabı "içerik hiç çıkmaz" + ERP sözlüğü + 30 dakikada kurulum. Bunu ilk günden ölçülebilir kıyas tablosu olarak yayınla.
 6. **Tek tek satış, ayda 1 müşteri.** → 3. müşteriden sonra kanal: 2 IT firması + 2 KVKK danışmanı, gelir payı.
 7. **GB'ye Steward adıyla gidildi, getsteward.ai itiraz etti.** → GB fazından önce ayrı marka veya TR'de kalma kararı.
 
@@ -254,7 +254,7 @@ Pazar araştırması dokümanı on-prem fikri için 22/40 vermişti. Gölge AI k
 4. **Verim katmanında abartı sınırı:** Faz 0 ve 1'de saat tahmini verilmesin, sadece sayım. Faz 1.1'de ölçülen veriyle saat. Kabul mü?
 5. **Kanal:** IT firmalarına ek olarak KVKK danışmanları ve SMMM ofisleri. Regüle meslekler müşteri değil kanal. Puls'tan sonraki ilk 2 görüşme danışmanla mı olsun?
 6. **GB fazı:** ChatShield, Harmonic ve Copilot UK gerçeğiyle GB planı yeniden yazılmalı. Şimdilik "TR'de 10 ücretli müşteri" eşiği kalsın, GB için ayrı marka araştırılsın mı?
-7. **İsim:** Steward çalışma adı olarak kalsın; TÜRKPATENT sorgusu bu hafta; GB için alternatif liste çıkarılsın mı?
+7. **İsim:** Karar (2026-11-07): çalışma adı "The Great Project"; Steward alternatif listede. TÜRKPATENT sorgusu Faz −1'de.
 8. **Faz 0'a ek:** Günlük Playwright adaptör testi ve "en az 5 cihaz, 1 mühendis" şartı Faz 0'a taşınsın mı?
 
 ---

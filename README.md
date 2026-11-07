@@ -1,4 +1,6 @@
-# Steward
+# The Great Project (çalışma adı)
+
+Ürün adı henüz belirlenmedi. "Steward" isim alternatifi olarak saklanıyor; GB'de getsteward.ai (AML uyum platformu) ile çakışma riski var.
 
 KOBİ'ler için gölge AI kalkanı: Çalışanlar ChatGPT, Gemini ve Copilot'u kullanmaya devam eder; hassas veri cihazdan çıkmadan maskelenir, cevapta geri doldurulur, patron KVKK uyum raporu ve AI fırsat haritası görür.
 

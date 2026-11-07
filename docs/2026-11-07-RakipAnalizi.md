@@ -11,7 +11,7 @@
 - **Global kurumsal pazar kırmızı.** Gartner 2026'da "AI Usage Control" diye ayrı bir kategori açtı ve 20 satıcı listeliyor. 14 ayda beş satın alma oldu (Prompt Security, Lakera, Aim, LayerX, Fiddler/Dreadnode). Island 6,4 milyar USD değerlemeye çıktı. Bu rafa yeni girilmez.
 - **Global KOBİ rafı sığ mavi.** Ucuz eklentiler var ama çekişleri yok: PiiBlocker'ın Chrome mağazasında 521 kullanıcısı var. "Sadece kalkan" ürünlerine KOBİ para vermiyor. Nudge Security (200 müşteri, 2 yıl üst üste 3 kat ARR) KOBİ'de işleyen tek modeli gösteriyor: sabit aylık fiyat, davranış dürtme, engelleme değil.
 - **Türkiye KOBİ rafı mavi ama boş değil.** AltaySec Guardian Edge (pilot), SHIM (Product Hunt, Ocak 2026, 3 oy), kolay.ai (kurumsal geçit), ALP DLP (klasik DLP) var. Hiçbirinin açıklanmış ücretli KOBİ müşterisi yok. Pazar yaratılmayı bekliyor; bu hem fırsat hem uyarı.
-- **Karar:** Steward mavi okyanusu "kalkan" ile değil, Mavi Okyanus'un ERRC çerçevesiyle **yaratır**: içerik bulutunu ve koltuk fiyatını kaldır, kurumsal karmaşıklığı azalt, yerel tespit ve doğrulanabilirliği yükselt, KVKK kanıtı, ERP sözlüğü ve verim haritasını yarat (bölüm 6).
+- **Karar:** The Great Project mavi okyanusu "kalkan" ile değil, Mavi Okyanus'un ERRC çerçevesiyle **yaratır**: içerik bulutunu ve koltuk fiyatını kaldır, kurumsal karmaşıklığı azalt, yerel tespit ve doğrulanabilirliği yükselt, KVKK kanıtı, ERP sözlüğü ve verim haritasını yarat (bölüm 6).
 - **İlk beş referans:** Harmonic (konum ve verim katmanı), LayerX (eklenti kalitesi ve memnuniyet), Nudge (KOBİ fiyat ve dürtme modeli), Strac (10 dakikada kurulum çıtası), Guardian Edge (yerel rakibin tespit seti). Bölüm 7'de kimden ne alınacağı var.
 
 ---
@@ -25,7 +25,7 @@ Dört ölçüt, her biri 1–5:
 | **Y** Yatırım ve çıkış | Toplam yatırım, değerleme, satın alma | Haberler |
 | **Ç** Ticari çekiş | Müşteri, ARR, kullanıcı, büyüme | Şirket açıklamaları |
 | **M** Memnuniyet | G2 / Gartner Peer Insights puanı ve yorum sayısı; veri yoksa ürün sayfasından benim değerlendirmem (★ ile işaretli) | G2, Gartner |
-| **R** Steward'a referans değeri | Yaklaşım benzerliği (eklenti, maskele + geri doldur, KOBİ, verim) ve öğrenilebilirlik | Benim değerlendirmem |
+| **R** The Great Project'e referans değeri | Yaklaşım benzerliği (eklenti, maskele + geri doldur, KOBİ, verim) ve öğrenilebilirlik | Benim değerlendirmem |
 
 Toplam 20 üzerinden. Sıralama toplam puana göre; eşitlikte R öne alınır.
 
@@ -52,7 +52,7 @@ Toplam 20 üzerinden. Sıralama toplam puana göre; eşitlikte R öne alınır.
 
 **Yardımcı referanslar (rakip değil, parça tedarikçisi):**
 
-| Oyuncu | Ne | Veri | Steward'a değeri |
+| Oyuncu | Ne | Veri | The Great Project'e değeri |
 | :--- | :--- | :--- | :--- |
 | **Microsoft Presidio** | Açık kaynak PII tanıma ve anonimleştirme çatısı | Microsoft çok yıllı ölçekleme anlaşması ([hoop.dev](https://hoop.dev/blog/microsoft-signs-multi-year-deal-to-scale-presidio-data-protection-framework)) | Tespit kütüphanesinin mimarisi (tanıyıcı + doğrulayıcı + anonimleştirici) buradan alınır |
 | **Private AI** (Toronto) | PII redaksiyon API'si, "yazılım için gizlilik katmanı" | 8M + 3,15M USD ([Private AI](https://private-ai.com/?p=8547)) | Tespit kalitesi için kıyas noktası |
@@ -75,15 +75,15 @@ Toplam 20 üzerinden. Sıralama toplam puana göre; eşitlikte R öne alınır.
 | 7 | **PiiBlocker** | Chrome eklentisi, lokal maskele + geri doldur, admin paneli, GPO | Ücretsiz; 4,99–6,99 USD/koltuk | **521 kullanıcı** Chrome mağazasında ([Chromeboard](https://chromeboard.com/extension/piiblocker-mask-pii-in-ai-nklghhkmhkmckonncilnaohlihfacoee)) | ★3 | 1 | 1 | 3 | 4 | **9** |
 | 8 | Private Guard, Caviard, RedactPII, PromptMask | Tek kişilik eklentiler | Ücretsiz | Private Guard 14 kullanıcı ([Chromeboard](https://chromeboard.com/extension/private-guard-—-pii-redac-jjkghegjofelkblppppihfacdoemjban)) | ★2 | 1 | 1 | 2 | 2 | **6** |
 
-**Okuma:** Bu rafta kazanan yok. En güçlü ikisi (Nudge, DefensX) maskeleme ürünü değil; biri keşif + dürtme, öteki MSP kanalı. Maskeleme eklentilerinin kullanıcı sayısı yüzlerle ölçülüyor. Bu, iki şeyi aynı anda söyler: **(a)** "sadece kalkan" ürünü için talep kanıtlanmamış, **(b)** kanalsız bir eklenti, ne kadar iyi olursa olsun, dağıtılmıyor. Steward'ın kanıt + verim + kanal vurgusu bu veriyle doğrulanıyor.
+**Okuma:** Bu rafta kazanan yok. En güçlü ikisi (Nudge, DefensX) maskeleme ürünü değil; biri keşif + dürtme, öteki MSP kanalı. Maskeleme eklentilerinin kullanıcı sayısı yüzlerle ölçülüyor. Bu, iki şeyi aynı anda söyler: **(a)** "sadece kalkan" ürünü için talep kanıtlanmamış, **(b)** kanalsız bir eklenti, ne kadar iyi olursa olsun, dağıtılmıyor. The Great Project'in kanıt + verim + kanal vurgusu bu veriyle doğrulanıyor.
 
 ---
 
 ## 4. Verim katmanı referansları
 
-| Oyuncu | Veri | Steward'a değeri |
+| Oyuncu | Veri | The Great Project'e değeri |
 | :--- | :--- | :--- |
-| **ActivTrak** | 1M+ kullanıcı, 9.500+ kurum, gelir +%26, kurumsal ARR +%47 (2025); Francisco Partners yatırımı; 2026'da "AI Workflow Intelligence: tekrarlayan işleri sınıflandırıp otomasyon fırsatı çıkarır" ([ActivTrak](https://www.activtrak.com/news/press-release-momentum-2026/)) | Patrona "AI benimseme ve etki" raporunun nasıl sunulduğu. Ama uç nokta ajanı ve kişi bazlı izleme; KVKK 2026/2035 kararıyla TR'de zor. Steward aynı çıktıyı departman düzeyinde, içerik görmeden verir |
+| **ActivTrak** | 1M+ kullanıcı, 9.500+ kurum, gelir +%26, kurumsal ARR +%47 (2025); Francisco Partners yatırımı; 2026'da "AI Workflow Intelligence: tekrarlayan işleri sınıflandırıp otomasyon fırsatı çıkarır" ([ActivTrak](https://www.activtrak.com/news/press-release-momentum-2026/)) | Patrona "AI benimseme ve etki" raporunun nasıl sunulduğu. Ama uç nokta ajanı ve kişi bazlı izleme; KVKK 2026/2035 kararıyla TR'de zor. The Great Project aynı çıktıyı departman düzeyinde, içerik görmeden verir |
 | **Harmonic Usage Intelligence** | Hangi AI kullanım senaryosu değer üretiyor | Kurumsal tarafta "verim katmanı"nın var olduğunun kanıtı; KOBİ için yok |
 | **Insightful AI Adoption Report** | Ekip bazlı AI aracı kullanımı, olgunluk matrisi; sadece metadata; zaman tasarrufu iddiası yok ([Insightful](https://www.insightful.io/ai-adoption)) | Verim raporunda **ne iddia edilmeyeceği**nin örneği; Faz 0–1 "sadece sayım" kararıyla uyumlu |
 | **Worklytics** | Copilot/Gemini bağlantılı, anonim, departman kalıpları | Departman düzeyi anonimleştirme yaklaşımı |
@@ -92,11 +92,11 @@ Toplam 20 üzerinden. Sıralama toplam puana göre; eşitlikte R öne alınır.
 
 ## 5. Türkiye (güçlüden zayıfa)
 
-| # | Oyuncu | Yaklaşım | Yatırım | Çekiş | Durum | Steward'a göre | **Top** |
+| # | Oyuncu | Yaklaşım | Yatırım | Çekiş | Durum | The Great Project'e göre | **Top** |
 | :-: | :--- | :--- | :--- | :--- | :--- | :--- | :-: |
 | 1 | **AltaySec Guardian Edge** (Ankara, 2025) | Chrome eklentisi; ChatGPT, Claude, Gemini; 18 TR veri tipi checksum'lu; sözlük; shadow mode; fail-closed; geri doldurma; Guardian geçidi on-prem ([AltaySec](https://altaysec.com.tr/en/products)) | Açıklanmadı | Açıklanmadı; pilot programı, 7 gün ücretsiz | Pilot. Şirketin asıl işi LLM pentest ve eğitim; CTF itibarı var | İçeriği sunucuda tarıyor; kurumsal güvenlik ekibi hedefi; ERP sözlüğü, KVKK raporu, verim, Copilot adaptörü yok | **10** |
 | 2 | **kolay.ai** (Levent, İstanbul) | Kurumsal AI geçidi: çok sağlayıcı, politika, maskeleme kuralı, on-prem/VPC, TL fatura ([kolay.ai](https://kolay.ai/)) | Açıklanmadı | Açıklanmadı | Canlı | Gölge AI'ı görmez; "resmî AI" satar; kurumsal | **9** |
-| 3 | **SHIM** (getshim.tech) | Geçit: maskeleme + denetim katmanı, TR ve EN veri, self-host veya bulut, shim-cli; **SHIM Shield** adlı tarayıcı eklentisi geliştiriliyor ([Product Hunt](https://www.producthunt.com/products/shim/launches), [Dev.to](https://dev.to/businnect/how-to-secure-ai-applications-without-slowing-them-down-inside-shims-privacy-first-ai-gateway-4aia)) | Workup 14. dönem | Product Hunt 19 Ocak 2026, 3 oy | Geliştirme | Steward'a en çok benzeyen TR girişimi, ama geliştirici ve fintech odaklı. Eklentisi çıkarsa doğrudan rakip | **7** |
+| 3 | **SHIM** (getshim.tech) | Geçit: maskeleme + denetim katmanı, TR ve EN veri, self-host veya bulut, shim-cli; **SHIM Shield** adlı tarayıcı eklentisi geliştiriliyor ([Product Hunt](https://www.producthunt.com/products/shim/launches), [Dev.to](https://dev.to/businnect/how-to-secure-ai-applications-without-slowing-them-down-inside-shims-privacy-first-ai-gateway-4aia)) | Workup 14. dönem | Product Hunt 19 Ocak 2026, 3 oy | Geliştirme | The Great Project'e en çok benzeyen TR girişimi, ama geliştirici ve fintech odaklı. Eklentisi çıkarsa doğrudan rakip | **7** |
 | 4 | **ALP DLP** (Teknopark İstanbul, Cube) | Klasik uç nokta DLP: USB, yazıcı, pano, web, e-posta; OCR ve AI asistan geliştiriliyor; "AI kullanım yönetişimi"ne genişleme planı ([İTG](https://istanbulticaretgazetesi.com/fikir-okul-sohbetinde-cikti-simdi-veri-sizintisina-set-cekiyor)) | Kuluçka; yatırım yok | Referans arıyor | Erken | Farklı kategori; ileride AI kullanım kontrolü ekleyebilir | **6** |
 | 5 | **KobiGPT** (X Mind) | Şirket içi veriyle asistan, on-prem opsiyonu | Açıklanmadı | Açıklanmadı | Canlı | Komşu ürün; kalkan değil | **5** |
 | – | Picus, Logsign, Roksit, Crypttech | Klasik siber güvenlik; AI/ML bileşenli ([AltaySec listesi](https://altaysec.com.tr/arastirmalar/turkiye-yapay-zeka-guvenligi-sirketleri-2026)) | Picus büyük | Kurumsal | – | Rakip değil; olası kanal ortağı (özellikle Roksit DNS güvenliği KOBİ'de yaygın) | – |
@@ -114,11 +114,11 @@ Toplam 20 üzerinden. Sıralama toplam puana göre; eşitlikte R öne alınır.
 | **Global** | 🔴 **Kırmızı.** Gartner AIUC kategorisinde 20 satıcı; 14 ayda 5 satın alma; Island 6,4 milyar USD; Netskope'a göre iç kullanıcıların genAI'a gönderdiği veri bir yılda 30 kat arttı ([Sacra](https://sacra.com/chat/h/265c3bc4-bd8f-4830-b92f-91ead5e35a2e/)) | 🟣 **Sığ mavi.** Ucuz eklentiler yüzlerce kullanıcıda; Nudge ve DefensX kanıtlı ama maskeleme yapmıyor; ChatShield UK niş |
 | **Türkiye** | 🟠 **Turuncu.** Guardian Edge ve kolay.ai kurumsalı hedefliyor; kazanan yok | 🔵 **Mavi.** Ücretli KOBİ müşterisi açıklayan kimse yok. Ama talep de kanıtlanmamış: mavi okyanus bulunmaz, yaratılır |
 
-### 6.2 ERRC ızgarası: Steward'ın mavi okyanusu nasıl yaratacağı
+### 6.2 ERRC ızgarası: The Great Project'in mavi okyanusu nasıl yaratacağı
 
 Mavi Okyanus Stratejisi'nin dört eylemi (Kim & Mauborgne):
 
-| Eylem | Steward ne yapar | Kimden ayrışır |
+| Eylem | The Great Project ne yapar | Kimden ayrışır |
 | :--- | :--- | :--- |
 | **Kaldır (Eliminate)** | İçeriğin buluta gitmesi; koltuk başına kurumsal fiyat; SOC/CISO'ya yönelik olay yönetimi, ajan/MCP güvenliği | Harmonic, Cyberhaven, Guardian Edge (sunucuda tarama) |
 | **Azalt (Reduce)** | Politika karmaşıklığı (3 mod: maskele, uyar, engelle); başlangıçta adaptör sayısı (3 site); kurulum süresi (30 dakika) | Purview, Chrome Enterprise Premium |
@@ -129,7 +129,7 @@ Mavi Okyanus Stratejisi'nin dört eylemi (Kim & Mauborgne):
 
 Puan 0–5, yüksek = o faktörde güçlü.
 
-| Faktör | Kurumsal DLP (Harmonic, Cyberhaven) | Platform (Chrome Premium, Edge+Purview) | Ucuz eklenti (PiiBlocker) | TR geçit (kolay.ai, Guardian) | **Steward hedefi** |
+| Faktör | Kurumsal DLP (Harmonic, Cyberhaven) | Platform (Chrome Premium, Edge+Purview) | Ucuz eklenti (PiiBlocker) | TR geçit (kolay.ai, Guardian) | **The Great Project hedefi** |
 | :--- | :-: | :-: | :-: | :-: | :-: |
 | Fiyat düşüklüğü | 1 | 3 | 5 | 2 | 4 |
 | Kurulum hızı | 2 | 3 | 5 | 2 | 5 |
@@ -142,11 +142,11 @@ Puan 0–5, yüksek = o faktörde güçlü.
 | Verim / fırsat haritası | 3 (Harmonic) | 0 | 0 | 0 | 4 |
 | Ajan / MCP / uygulama güvenliği | 5 | 2 | 0 | 3 | 0 (bilerek) |
 
-Steward'ın eğrisi hiçbir sütunla çakışmıyor. Son satırı bilerek sıfır bırakmak, kurumsal rafla savaşmamak demek.
+The Great Project'in eğrisi hiçbir sütunla çakışmıyor. Son satırı bilerek sıfır bırakmak, kurumsal rafla savaşmamak demek.
 
 ### 6.4 Sonuç
 
-Fikir **Türkiye KOBİ'de mavi okyanus adayı, ama okyanus henüz su almamış.** Kanıt yok: ne rakiplerin ne bizim ücretli KOBİ müşterimiz var. Puls pilotu bu yüzden "ürün testi" değil, "pazar var mı" testi. Global KOBİ rafı Steward'ın modelini (kanıt + verim + kanal) doğruluyor, çünkü orada sadece kalkan satmaya çalışanlar yüzlerce kullanıcıda kaldı.
+Fikir **Türkiye KOBİ'de mavi okyanus adayı, ama okyanus henüz su almamış.** Kanıt yok: ne rakiplerin ne bizim ücretli KOBİ müşterimiz var. Puls pilotu bu yüzden "ürün testi" değil, "pazar var mı" testi. Global KOBİ rafı The Great Project'in modelini (kanıt + verim + kanal) doğruluyor, çünkü orada sadece kalkan satmaya çalışanlar yüzlerce kullanıcıda kaldı.
 
 ---
 
