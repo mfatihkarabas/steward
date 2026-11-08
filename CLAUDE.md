@@ -6,11 +6,13 @@ Workflow
 * If you can't do something, list what I need to do in steps: one sentence per step, with a link if I need to visit somewhere.
 * When I must do steps myself, give one step per message labeled "Adım N / total", then wait for my "tamam" or screenshot before you give the next step.
 * Use web searches when needed.
+* Before you give me any step in an external dashboard (Cloudflare, Meta, TikTok, GitHub, Google), read the current official docs for that screen first. Use only button, menu and field names that the docs or my latest screenshot show. If neither confirms a name, do not guess: say so and ask for one screenshot.
 * Test your changes at localhost, put screenshots in response
 
 Engineering
 
 * Never write code comments — the code documents itself.
+* All user-facing text must always come from i18n; never hardcode strings.
 * Use world-class software development best practices.
 * Measure, do not guess.
 * No real users, we're in staging.
